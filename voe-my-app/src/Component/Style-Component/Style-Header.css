@@ -130,6 +130,10 @@ position: absolute;
         color: white;
         font-size: 22px;
     }
+
+    .SearchIcon img{
+        width: 15px;
+    }
     
     .submenu {
         display: block;

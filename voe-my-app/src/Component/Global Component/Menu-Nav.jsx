@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
+import SearchIcon from "../Images/search-icon.png";
 import '../Style-Component/Style-Header.css'
 
 
@@ -44,6 +45,8 @@ const MenuNav =() => {
                 </li>
 
                 <li><a href="#">Nos Partenaires</a></li>
+
+                <li className="SearchIcon"><img src={SearchIcon} /></li>
 
             </ul>
 
