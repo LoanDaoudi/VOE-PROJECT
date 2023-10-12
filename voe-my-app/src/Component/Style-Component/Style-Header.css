@@ -14,11 +14,12 @@ position: absolute;
 
 .BanniereAccueil {
     width: 100%;
-    height: auto;
     object-fit: cover;
     z-index: 0;
 
 }
+
+
 
 .MenuNav {
     position: absolute;

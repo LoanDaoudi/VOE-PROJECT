@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Header";
-import './Style-Component/Style-Acceuil.css'
+import '../Style-Component/Style-Background.css'
 
 const Acceuil =() => {
     return (

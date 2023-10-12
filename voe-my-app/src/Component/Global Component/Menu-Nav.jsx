@@ -1,12 +1,13 @@
 import React from "react";
-import './Style-Component/Style-Header.css'
+import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
+import '../Style-Component/Style-Header.css'
 
 
 const MenuNav =() => {
     return (
         <div className="MenuNav">
             <ul>
-                <li><a href='#'>Accueil</a></li>
+            <li><Link to="/">Accueil</Link></li>
 
                 <li><a href="#">Vie du Club</a>
                     <ul className="submenu">
@@ -18,11 +19,12 @@ const MenuNav =() => {
                     </ul>
                 </li>
 
-                <li><a href="#">Compétitions</a>
+                <li>
+                <Link to="/Competitions">Compétitions</Link>
                     <ul className="submenu">
-                        <li><a href="#">Calendrier</a></li>
-                        <li><a href="#">Résultats</a></li>
-                        <li><a href="#">Classements</a></li>
+                        <li><Link to="/Competitions/Calendrier">Calendrier</Link></li>
+                        <li><Link to="/Competitions/Resultats">Resultats</Link></li>
+                        <li><Link to="/Competitions/Classement">Classement</Link></li>
                     </ul>  
                 </li>
 
